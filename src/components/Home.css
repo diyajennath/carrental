@@ -1,0 +1,214 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #002855;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #002855;
+}
+
+.logo {
+  flex: 1; /* Takes up space on the left */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex: 1; /* Distribute the remaining space equally */
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav-links li a:hover {
+  color: #ff3b30;
+}
+
+.get-started {
+  background-color: #ff3b30;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-left: auto; /* Pushes the button to the right corner */
+}
+
+.get-started:hover {
+  background-color: #e0332b;
+}
+
+/* Main Section */
+.main-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  /*background: url('/images/carbackground.jpg') center/cover no-repeat;*/
+  height: 500px;
+  position: relative;
+  color: black;
+  text-align: center; /* Centers the text */
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Centers content horizontally */
+  max-width: 400px;
+  text-align: center; /* Ensures text is centered */
+}
+
+.header-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.header-content p {
+  font-size: 1.2rem;
+}
+
+
+/* Reservation Form */
+.reservation-container {
+  display: flex;
+  justify-content: flex-start; /* Align the form to the left */
+  width: 100%; /* Ensure the container spans full width */
+  position: relative; /* This is needed for the margin-top to work properly */
+  margin-top: -300px; /* Pull the form upwards */
+}
+
+.reservation-form {
+  width: 500px; /* Adjust width as necessary */
+  background-color: rgb(15, 15, 57);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add a shadow for styling */
+}
+
+.reservation-form h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+  color: wheat;
+}
+
+.reservation-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.reservation-form select, .reservation-form input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.reservation-form select {
+  background-color: #f4f4f4;
+}
+
+.reservation-form input[type="date"] {
+  background-color: #f4f4f4;
+}
+
+.reservation-form input[type="text"] {
+  background-color: #f4f4f4;
+}
+
+.reservation-form button {
+  background-color: #ff3b30;
+  color: white;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.reservation-form button:hover {
+  background-color: #e0332b;
+}
+
+/* Footer Section (Optional) */
+footer {
+  background-color: #002855;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  margin-top: 2rem;
+}
+
+.features-section {
+  background-color: #f9f9f9;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.features-section h2 {
+  color: red;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.features-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.feature-item {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feature-item .icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.feature-item h3 {
+  color: red;
+  font-size: 24px;
+}
+
+.feature-item p {
+  font-size: 16px;
+}

@@ -1,0 +1,71 @@
+.service-section {
+    padding: 50px;
+    background-color: #f9f9f9;
+  }
+  
+  .service-container {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 50px;
+  }
+  
+  .service-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .service-icon {
+    font-size: 40px;
+    color: #ff3d00;
+    margin-bottom: 15px;
+  }
+  
+  .service-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .service-card p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  
+  .client-reviews {
+    margin-top: 50px;
+  }
+  
+  .review {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+  }
+  
+  .review p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .review h4 {
+    font-size: 20px;
+    color: #ff3d00;
+  }
+  
