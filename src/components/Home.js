@@ -42,10 +42,10 @@ const Home = () => {
         </div>
         <Slider {...settings}>
           <div>
-            <img src="/images/slide1.jpg" alt="Slide 1" className="slider-image" />
+            <img src="https://themewagon.github.io/Cental/img/carousel-1.jpg" alt="Slide 1" className="slider-image" />
           </div>
           <div>
-            <img src="/images/slide2.jpg" alt="Slide 2" className="slider-image" />
+            <img src="https://themewagon.github.io/Cental/img/carousel-2.jpg" alt="Slide 2" className="slider-image" />
           </div>
         </Slider>
 
@@ -92,7 +92,7 @@ const Home = () => {
 
     {/* Centered car image */}
     <div className="car-image">
-      <img src="/images/carImage.png" alt="Car" />
+      <img src="https://themewagon.github.io/Cental/img/features-img.png" alt="Car" />
     </div>
 
     <div>
