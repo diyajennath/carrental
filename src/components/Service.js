@@ -1,68 +1,66 @@
 import React from 'react';
-import Slider from 'react-slick'; 
 import './Service.css';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 
-function Service() {
-  
-  const sliderSettings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 2, 
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000
-  };
+function Service() {  
 
   return (
     <section id="services" className="service-section">
       <div className="service-container">
-        <h2>Cental Services</h2>
+        <h2>Cental <span> Services</span></h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut amet nemo expedita asperiores commodi accusantium at cum harum, excepturi, quia tempora cupiditate! Adipisci facilis modi quisquam quia distinctio,</p>
         <div className="services-grid">
           {}
-          <div className="service-card">
-            <div className="service-icon">
-              <i className="fas fa-phone"></i>
-            </div>
+          <div className="service-card">            
+            <div className = "icon-box">
+            <img src="	https://themewagon.github.io/Cental/img/about-icon-2.png" alt="Our Vision" />
             <h3>Phone Reservation</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
+          </div>           
 
-          <div className="service-card">
-            <div className="service-icon">
-              <i className="fas fa-percent"></i>
-            </div>
+          <div className="service-card">            
+            <div className = "icon-box">
+            <img src="	https://themewagon.github.io/Cental/img/about-icon-2.png" alt="Our Vision" />
             <h3>Special Rates</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
+          </div>
+
+          <div className="service-card">            
+            <div className = "icon-box">
+            <img src="	https://themewagon.github.io/Cental/img/about-icon-2.png" alt="Our Vision" />
+            <h3>Special Rates</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          </div>
+
+           <div className="service-card">           
+            <div className = "icon-box">
+            <img src="	https://themewagon.github.io/Cental/img/about-icon-2.png" alt="Our Vision" />
+            <h3>Special Rates</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          </div>
+
+           <div className="service-card">            
+            <div className = "icon-box">
+            <img src="	https://themewagon.github.io/Cental/img/about-icon-2.png" alt="Our Vision" />
+            <h3>Special Rates</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          </div>
+
+           <div className="service-card">            
+            <div className = "icon-box">
+            <img src="	https://themewagon.github.io/Cental/img/about-icon-2.png" alt="Our Vision" />
+            <h3>Special Rates</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          </div> 
 
           {}
-        </div>
-
-        {}
-        <div className="client-reviews">
-          <h2>Client Reviews</h2>
-          <Slider {...sliderSettings}>
-            <div className="review">
-              <p>"Great service! The car was clean and the booking process was seamless."</p>
-              <h4>– John Doe</h4>
-            </div>
-            <div className="review">
-              <p>"Excellent rates and the customer support was very helpful throughout."</p>
-              <h4>– Jane Smith</h4>
-            </div>
-            <div className="review">
-              <p>"Would recommend to anyone! Very smooth experience."</p>
-              <h4>– Mark Wilson</h4>
-            </div>
-            <div className="review">
-              <p>"Had a great experience with the one-way rental option."</p>
-              <h4>– Lisa Johnson</h4>
-            </div>
-          </Slider>
-        </div>
+        </div>        
+        
       </div>
     </section>
   );

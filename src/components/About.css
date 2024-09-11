@@ -1,0 +1,220 @@
+.about {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: #f9f9f9;
+}
+
+.about-text {
+  width: 50%;
+  padding-right: 20px;
+  text-align: left;
+}
+
+.about-text h2 {
+  font-size: 36px;
+  color: black;
+}
+
+.about-text h2 span {
+  color: red;
+}
+
+.about-text p {
+  color: #666;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.info-boxes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.info-box {
+  width: 48%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.info-box img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.info-box h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.content {
+  margin-top: 20px; 
+}
+
+.experience-checklist-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.experience {
+  background-color: #001f3f;
+  color: white;  
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 20px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+}
+
+.experience h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.experience p {
+  font-size: 20px;
+  color: white;
+}
+
+.experiences button {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-start;
+  margin-top: 20px;
+}
+
+.checklist {
+  list-style: none;
+  padding: 0;
+}
+
+.checklist li {
+  display: flex;  
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.check-icon {
+  color: red;
+  margin-right: 10px; 
+}
+
+.images {
+  width: 30%;
+  position: relative;
+}
+
+.top-image {
+  height: 60%;
+  margin-bottom: 20px;
+}
+
+.bottom-image {
+  position: absolute;
+  width: 85%;
+  bottom: 0;
+  right: 0;
+  border-radius: 10px;
+}
+
+.top-image img, .bottom-image img {
+  float: left;
+  margin-left: -150px; 
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* RESPONSIVE STYLING BELOW */
+
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .about-text {
+    width: 100%;
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .about-text h2 {
+    font-size: 28px;
+  }
+
+  .about-text p {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .info-boxes {
+    flex-direction: column;
+  }
+
+  .info-box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .experience-checklist-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .experience {
+    margin-right: 0;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .experience h1 {
+    font-size: 36px;
+  }
+
+  .experience p {
+    font-size: 16px;
+  }
+
+  .experiences button {
+    align-self: center;
+  }
+
+  .checklist {
+    text-align: center;
+  }
+
+  .checklist li {
+    font-size: 16px;
+  }
+
+  .images {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .top-image img, .bottom-image img {
+    margin-left: 0;
+  }
+
+  .bottom-image {
+    position: static;
+    width: 100%;
+    margin-top: 20px;
+  }
+}

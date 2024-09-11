@@ -1,0 +1,66 @@
+.client-reviews-section {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+  }
+  
+  .highlight {
+    color: red;
+  }
+  
+  .section-description {
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+    color: #777;
+  }
+  
+  .review-carousel {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .review-card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fafafa;
+    text-align: left;
+    margin: 0 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .client-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    margin: 10px 0 5px;
+    font-size: 1.2rem;
+  }
+  
+  .review-rating {
+    color: #ffcc00;
+    margin-bottom: 10px;
+  }
+  
+  .review-text {
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .slick-dots li button:before {
+    font-size: 12px;
+    color: #ff0000;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #ff0000;
+  }
+  
